@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* shadow */
+
+.bg-shadow {
+    box-shadow: 20px 20px 25px rgba(54, 74, 74, 0.04);
+}
+
+
+/* background color */
+
+.bg-green-secondary {
+    background: #EAF1F1 !important;
+}
+
+.bg-button-green {
+    background: #364A4A !important;
+}
+
+.bg-button-green:hover {
+    background: #2a5744 !important;
+}
+
+
+/* background color */
+
+
+/* text */
+
+.text-green-secondary {
+    color: #EAF1F1;
+}
+
+.text-green-primary {
+    color: #364A4A !important;
+}
+
+.text-gray {
+    color: #444;
+}
+
+
+/* text */
+
+
+/* layout ronuded */
+
+.bg-rounded {
+    border-radius: 0 10px 10px 0;
+}
+
+
+/* layout rounded */
+
+
+/* border color input  */
+
+.form-input-green {
+    border-color: #364A4A !important;
+}
+
+
+/* border color input */
+
+
+/* font size */
+
+.custom-fs-1 {
+    font-size: 0.75em !important;
+}
+
+.custom-fs-title {
+    font-size: 0.90em !important;
+}
+
+.custom-fs-2 {
+    font-size: .9375em !important;
+}
+
+.custom-fs-3 {
+    font-size: 1em !important;
+}
+
+.custom-fs-4 {
+    font-size: 1.125em !important;
+}
+
+.custom-fs-5 {
+    font-size: 1.25em !important;
+}
+
+.custom-fs-6 {
+    font-size: 1.375em !important;
+}
+
+.fs-7 {
+    font-size: 1.5em !important;
+}
+
+.fs-8 {
+    font-size: 1.625em !important;
+}
+
+.fs-9 {
+    font-size: 1.75em !important;
+}
+
+.fs-10 {
+    font-size: 1.875em !important;
+}
+
+.fs-11 {
+    font-size: 2em !important;
+}
+
+
+/* font size */
+
+
+/* font weight */
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+
+/* font weight */
+
+
+/* clear background */
+
+.bg-none {
+    background: none !important;
+}
+
+
+/* clear background */
+
+
+/* width */
+
+.w-11 {
+    width: 9% !important;
+}
+
+
+/* width */
+
+
+/* margin and padding */
+
+.py-8 {
+    padding: 3.5rem 0;
+}
+
+.my-8 {
+    margin: 2.5rem 0 1.5rem 0;
+}
+
+
+/* margin and padding */
+
+
+/* shadow */
+
+.shadow-5 {
+    box-shadow: 0px 15px 20px rgba(54, 74, 74, 0.07);
+}
+
+
+/* shadow */
+
+
+/* media queries */
+
+@media(max-width: 438px) {
+    .box-all-product {
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .box-card-product {
+        width: 100% !important;
+    }
+    .best-product {
+        width: 7rem;
+    }
+}
+
+@media(max-width: 535px) {
+    .box-all-product {
+        display: flex;
+        flex-direction: column;
+    }
+    .box-card-product {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .box-best-product {
+        width: 18rem;
+        margin: 0 auto;
+    }
+    .higlights-text {
+        text-align: center;
+    }
+    .best-product {
+        width: 14rem;
+    }
+    .box-all-product {
+        display: flex;
+        justify-content: center;
+        column-gap: 1.5rem;
+    }
+    .box-card-product {
+        width: 40% !important;
+        padding: 0 !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .footer-sub-text {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 1024) {
+    .best-product {
+        width: 18rem;
+    }
+}
+
+
+/* media queries */
